@@ -32,6 +32,8 @@ class Category:
         else:
             return True
 
+# Had to look up help for this part Don't quite understand how this is working, will need to research more on __str__ and how it and the syntax works
+
     def __str__(self):
         title = f"{self.name:*^30}\n"
         items = ""
